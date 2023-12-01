@@ -33,7 +33,7 @@ function App() {
       <div>
         <input
           type="text"
-          placeholder="Search by body"
+          placeholder="Search "
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
