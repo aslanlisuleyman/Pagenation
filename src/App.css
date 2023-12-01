@@ -1,0 +1,46 @@
+
+.cards{
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.active{
+  color: rgb(248, 201, 142);
+  background-color: navy;
+}
+
+input{
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+
+  border: 2px solid rgb(163, 163, 255);
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(138, 138, 255);
+}
+input:focus {
+outline: none;
+border-color: rgb(114, 114, 243);
+
+  box-shadow: 0 0 8px blue;
+}
+
+.header_div_inp::placeholder {
+  color: #aaa;
+}
+
+input:hover {
+  outline: none;
+  border-color: rgb(114, 114, 243);
+  
+    box-shadow: 0 0 8px rgb(4, 4, 172);
+  }
